@@ -11,6 +11,7 @@ namespace VolleyStatistic.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
+        public string elo = "elo";
 
         public IndexModel(ILogger<IndexModel> logger)
         {
